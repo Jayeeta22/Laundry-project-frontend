@@ -1,121 +1,114 @@
-.promo-section {
-  margin: auto;
-  bottom: 1rem;
-  width: 100%;
-  max-height: 10vh;
-  display: flex;
-  justify-content: center;
-  color: #5861ae;
-  background-color: #f8f9ff;
+.register_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5861AE;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* height: 500px; */
+    width: 1415px;
+    border-bottom: 1px solid #5861AE ;
 }
-
-.left-section {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.register_left{
+    width: 30%;
+    padding: 1rem;
 }
-.right-section {
-  background: #f8f9ff;
-  height: 80vh;
-  padding: 4vw;
+.register_left p h1{
+    margin: 3rem;
 }
-.register-left-heading {
-  display: flex;
-  flex-direction: column;
+.register_right{
+    width: 70%;
+    padding: 3rem;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    height: 500px;
+    padding-top: 20px;
 }
-.laundry-service-heading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: #5861ae;
-  font-weight: bolder;
-  font-size: 350%;
+.register_left h1{
+    font-size: 2rem;
+    font-weight: 275px;
 }
-.left-sub-heading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: 100%;
-  color: #565657;
+.register_left p{
+    color: #565657;
 }
-.signin-button-div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  left: -19%;
+.register_right p{
+    color: #565657;
 }
-.signin-button-container {
-  display: flex;
-  position: absolute;
-  bottom: 1rem;
+.register_form button{
+    color: #FFFFFF;
+    background: #4552C1 0% 0% no-repeat padding-box;
 }
-.btn-div {
-  margin-top: 1vh;
+.register_bottom, .register_top{
+    margin: 4rem;
 }
-.signin-btn {
-  color: #5861ae;
-  border-color: #5861ae;
-  border-width: 3px;
-  min-width: 120px;
-  width: 8vw;
-  background: white;
-  font-weight: bolder;
+.p-tag,.h-tag{
+    margin: 1rem;
 }
-.signin-btn:hover {
-  background: #5861ae;
-  color: white;
+.register_bottom button{
+    margin: 1rem 1rem;
 }
-.register-form-heading {
-  color: #5861ae;
-  font-size: xx-large;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.register_form input{
+    border: none;
+    border-bottom: 1px #5861AE solid;
+    margin:  0rem 3rem 0.5rem 0rem;
+    height: 2vh ;
+    width: 20vw ;
 }
-.set-flex-start {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.register_checkbox,.register_mobile, .register_password,.register_name,.register_state,.register_district,.register_pincode,.register_address{
+    margin: 1rem 0rem;
 }
-.custom-form-input {
-  border: none;
-  background: #f8f9ff;
-  border-bottom: 2px solid #77838f;
+.register_right h2{
+    font-size: 1.5rem;
 }
-.custom-row-style {
-  margin-top: 5vh;
+.register_right label, i{
+    font-size: 0.75rem;
 }
-
-.register-btn {
-  color: white;
-  min-width: 120px;
-  width: 8vw;
-  min-height: 40px;
-  height: 5vh;
-  border-width: 3px;
-  background: #5861ae;
-  font-weight: bolder;
-  border-radius: 10%;
+.register_right span{
+    text-align: right;
 }
-.register-btn:hover {
-  background: white;
-  color: #5861ae;
-  border-width: 3px;
-  font-weight: bolder;
-  border-color: #5861ae;
+.register_password input{
+    background-image: url('../../images/padlock.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
 }
-.custom-select {
-  margin-top: 0.5%;
-  background: #f8f9ff;
-  border: none;
+.register_form span{
+    width: 30vw;
+    text-align: right;
 }
-.reg-btn-chk {
-  position: absolute;
-  bottom: 1rem;
-  justify-content: center;
-  width: 90%;
-  margin: auto;
+.register_button{
+    width: 30vw;
+    text-align: center;
+}
+.register_middle{
+    height: 30vh;
+    border: 0.5px solid #5861AE ;
+}
+.register_form_top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.register_state input{
+    background-image: url('../../images/arrow-down-sign-to-navigate.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 12px;
+}
+.register_district input{
+    background-image: url('../../images/arrow-down-sign-to-navigate.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 12px;
+}
+.register_form input:focus{
+    outline: none;
+}
+.register_checkbox input{
+    padding: 0;
+    margin: 2px;
+    width:20px;
+}
+.register_checkbox_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

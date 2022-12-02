@@ -1,17 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
+import "./reset.css"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Footer from './components/Footer/footer';
-// import Register from './components/Register/register';
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+import Register from './components/Register/Register'
+import BrowserRouter, { Router } from "react-router-dom"
+
+ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Footer/>
-    {/* <Register/> */}
-  </React.StrictMode>
+    
+     <App />
+   
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
