@@ -35,6 +35,7 @@ function TableComponent(props) {
     const toggleSummaryPopup = () => {
         // console.log("view button clicked");
         setSummaryIsOpen(!summaryIsOpen)
+        
     }
 
     const table_headings = ["Order id", "Order Date & Time", "Store Location", "City", "Store Phone", "Total Items", "Price", "Status", "            ", "View"]
