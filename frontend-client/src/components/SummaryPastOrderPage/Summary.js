@@ -7,7 +7,6 @@ function Summary(props) {
     // console.log("summary popup");
     // console.log(props.order);
     
-    
     // axios.get(`http://localhost:5000/orders`, {
     //         headers: {
     //             Authorization: 'Bearer ' + token
